@@ -1,0 +1,261 @@
+.container_background
+{
+background-color:#00192a ;
+background-size: cover;
+width: initial ;
+height: 100vh;
+
+
+
+}
+.navbar_background
+                   {
+ 
+  width:100vw;
+  height: auto;
+
+                  }
+.navbar_background
+{
+    
+color: #ebecee;
+    font-style: italic;
+    font-weight: bolder;
+    background-image: linear-gradient(-200deg,#001e32, #00192a,#07293e, #00192a, #07293e, #00192a, #00192a );
+}
+
+
+.box
+{
+    text-decoration: none;
+    color: #fff;  
+    background: transparent;
+    padding: 15px 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    border: 0 solid #fff;
+    margin: 0 10px;
+}
+.box:hover
+{
+   border:0;
+   box-shadow: 0 0 3px #aae7de,0 0 7px #6ec9dd,0 0 20px #19d8b8;
+   text-align: center;
+}
+
+                               /* profile container */
+
+
+.profile_container
+{
+  
+ width: auto;
+  
+  margin-left:auto;
+  margin-right: auto;
+  clip-path:circle(50%);
+  
+  margin-top:35px ;
+  margin-bottom: 20px;
+}
+
+#profile_container_background
+{
+    background-color:transparent;
+    border-width: 0.1px ;
+    border-color:whitesmoke !important;
+    border-style: solid ;
+    border-top-right-radius: 52px;
+    border-bottom-left-radius: 52px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 10px;
+
+
+}
+
+.text_style
+{
+    color: azure;
+    font-style: oblique;
+    font-weight:normal;
+    opacity: 0.5;
+
+}
+.text_style_project
+{
+    color:#00192a ;
+    font-style:oblique;
+    font-weight:bree serif;
+    
+
+}
+.profile_card:hover {
+  background-image: linear-gradient(-200deg, #00192a, #00192a, #07293e, #00192a, #00192a );
+  box-shadow: 20px 2px 200px 0px rgba(255, 255, 255, 0.2);
+  color: white;
+  border: none !important;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+  padding: 20px;
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.02); 
+}
+.profile_card:hover svg{
+  color: red;
+  transform: 0.5s;
+         }
+.profile_card:hover hr{
+  border-top: 1px dotted white;
+  width: 7cm;
+  
+
+}
+         
+.profile_card:hover .profile_container {
+  
+  clip-path: circle(55%);
+  transition: 0.5s;
+                                       }
+                                      
+
+
+                                       /* project cards*/
+.project_card
+{
+
+    border-width: 1px !important;
+    border-color:whitesmoke ;
+    border-style: solid !important;
+    border-top-right-radius: 52px;
+    border-bottom-left-radius: 52px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    transition: transform .2s;
+    background-color: rgba(255, 255, 255, 0.983) ;
+    width: 100% !important;
+    color: #00192a;
+    padding: 42px;
+    margin: 0 auto;
+    flex-basis: 40%;
+  
+    
+}
+
+  
+.project_card:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.2); 
+  background-image: linear-gradient(-220deg, #00192a, #00192a, #07293e, #00192a, #00192a );
+border-width: 0.1px !important;
+box-shadow: 24px 2px 200px 0px black;
+z-index: 10;
+position: absolute;
+width: initial !important;
+
+}
+.project_card:hover h {
+  color: white!important;
+
+}
+.project_card:hover p{
+  color: white;
+}
+.headings_shadows {
+  text-shadow: 2px 2px 5px red;
+                  }
+
+
+                                  /*  skill container  */
+
+.skill-card
+{
+ background-color: whitesmoke !important;
+border-bottom-left-radius: 23px;
+border-top-right-radius: 23px;
+border-top-left-radius: 5px;
+
+border-bottom-right-radius: 5px;
+}
+.skill-card-text
+{
+    border-radius: 5px;
+}
+.contact-details
+{
+   background-color:white;
+    width: 100vw;
+} 
+                           /*  contact card  */        
+                               
+.contact-card
+{ 
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius:30px ;
+    width:100%;   
+    height: 30%;
+}
+.contact-card-style
+{
+    align-items: baseline;
+}
+.contact-card_styling
+{
+    text-shadow: #3188c2;
+    color: #0c1f2c;
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+
+}
+* {
+    box-sizing: border-box;
+  }
+
+.contact-card_styling:hover 
+                           {
+    color:lightcoral;
+    transform: 2s;
+                           }
+ 
+.sizing
+{
+  width: 20px;
+  height: 20px;
+}
+
+
+
+.intrest_card_styling
+{
+  background-color: #0a2435 ;
+  color: #fff;
+  box-shadow: 10px 2px 200px 0px black;
+}
+#cardStyling
+{
+  background-color: #0a2435 ;
+}
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
